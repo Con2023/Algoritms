@@ -36,10 +36,7 @@ public class SortChoice {
     }
 
 }
-<<<<<<< HEAD
-=======
 
->>>>>>> 17283a4 (first commit)
 //public class SortChoice {
 //    public static void main(String[] args){
 //        Scanner scan = new Scanner(System.in);

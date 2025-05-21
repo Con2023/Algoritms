@@ -37,8 +37,6 @@ public class BinarySearch {
        return -1;
     }
 }
-<<<<<<< HEAD
-=======
 
 class BinarySearchRecursion {
     public static void main(String[] args) {
@@ -75,5 +73,3 @@ class BinarySearchRecursion {
             }
     }
 }
-
->>>>>>> 17283a4 (first commit)

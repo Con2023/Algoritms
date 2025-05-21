@@ -1,13 +1,9 @@
-<<<<<<< HEAD
-public class Recursion {
-=======
 
-import java.util.ArrayList;
 import java.util.Scanner;
 import java.util.Stack;
 
-class Recursion1 {
->>>>>>> 17283a4 (first commit)
+class Recursion {
+
     public static void main(String[] args){
         count(3);
     }
@@ -23,11 +19,10 @@ class Recursion1 {
     }
 
 }
-<<<<<<< HEAD
-=======
 
 
-public class Recursion {
+
+public class Recursion1 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         String[] string = scan.nextLine().toLowerCase().split(" ");
@@ -74,4 +69,3 @@ public class Recursion {
     }
 
 }
->>>>>>> 17283a4 (first commit)
