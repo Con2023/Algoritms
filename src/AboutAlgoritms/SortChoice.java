@@ -1,3 +1,5 @@
+package AboutAlgoritms;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -37,7 +39,7 @@ public class SortChoice {
 
 }
 
-//public class SortChoice {
+//public class AboutAlgoritms.SortChoice {
 //    public static void main(String[] args){
 //        Scanner scan = new Scanner(System.in);
 //        String[] numbers = scan.nextLine().split(" ");

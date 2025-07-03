@@ -1,3 +1,5 @@
+package AboutAlgoritms;
+
 import java.util.Scanner;
 
 /**
