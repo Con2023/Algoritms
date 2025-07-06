@@ -15,7 +15,9 @@ package CodeRun.DynamicProgramming.Easy;
 //Последовательности - это бинарные строки, которые содержат рандомно 0 и 1.
 // Например, если N равен 2 то выбор булет 0 1 01 и 10 то есть равен 2^N
 
+import java.util.LinkedList;
 import java.util.Scanner;
+import java.util.Stack;
 
 public class Task1 {
         public static void main(String[] args) {
@@ -39,3 +41,5 @@ public class Task1 {
             return dp[N];
         }
 }
+
+
