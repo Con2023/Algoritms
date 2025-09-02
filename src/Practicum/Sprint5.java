@@ -1,7 +1,6 @@
+package Practicum;
+
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.Map;
 
 class Nodee {
     int value;
@@ -228,22 +227,22 @@ public class Sprint5 {
         root.right.left = new Nodee(5);
         root.right.right = new Nodee(1);
 
-        //System.out.println("Максимальное значение в дереве: " + Nodee.treeSolution1(root));
-        //System.out.println("Максимальное значение в дереве: " + Nodee.treeSolution2(root,Integer.MIN_VALUE, Integer.MAX_VALUE));
-        //System.out.println("Диапазон: " + Nodee.treeSolution3(root,10, 16));
-//        Nodee.insert(root, 90);
-//        Nodee.insert(root, 1);
-//        //Nodee.print(root);
-//        Nodee.delete(root,12);
-//        Nodee.delete(root, 0);
-//        Nodee.delete(root,1);
-       // Nodee.print(root);
-//        if(Nodee.checkedABL(root) != 1){
+        //System.out.println("Максимальное значение в дереве: " + Practicum.Nodee.treeSolution1(root));
+        //System.out.println("Максимальное значение в дереве: " + Practicum.Nodee.treeSolution2(root,Integer.MIN_VALUE, Integer.MAX_VALUE));
+        //System.out.println("Диапазон: " + Practicum.Nodee.treeSolution3(root,10, 16));
+//        Practicum.Nodee.insert(root, 90);
+//        Practicum.Nodee.insert(root, 1);
+//        //Practicum.Nodee.print(root);
+//        Practicum.Nodee.delete(root,12);
+//        Practicum.Nodee.delete(root, 0);
+//        Practicum.Nodee.delete(root,1);
+       // Practicum.Nodee.print(root);
+//        if(Practicum.Nodee.checkedABL(root) != 1){
 //            System.out.println("true");
 //        }
 //        else System.out.println("else");
 //        int[] heap = new int[]{12, 6,8,3,15,7};
-//        System.out.println(Nodee.siftDownCheck(heap,2));
+//        System.out.println(Practicum.Nodee.siftDownCheck(heap,2));
 //        System.out.println(Arrays.toString(heap));
         System.out.println(Nodee.treePath(root,0));
     }

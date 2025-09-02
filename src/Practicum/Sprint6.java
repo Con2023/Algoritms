@@ -1,3 +1,5 @@
+package Practicum;
+
 import AboutAlgoritms.BFS;
 import AboutAlgoritms.DFS;
 

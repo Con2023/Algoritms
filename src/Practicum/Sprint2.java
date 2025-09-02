@@ -1,3 +1,5 @@
+package Practicum;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -36,15 +38,15 @@ public class Sprint2 {
     public static void main(String[] args) throws IOException {
         Deck();
 
-//        linkedListAndSize perm = getLinkedList();
-//        Node<String> head = perm.head;
+//        Practicum.linkedListAndSize perm = getLinkedList();
+//        Practicum.Node<String> head = perm.head;
 //        int size = perm.size;
 //     //   System.out.println(size);
 //     //   printLinkedList(head);
 //        Random random = new Random();
 //        int num = random.nextInt(8);
-//      //  linkedListAndSize permAfterDel = deleteFromLinkedList(head,num,size) ;
-//      //  Node<String> headAfterDel = permAfterDel.head;
+//      //  Practicum.linkedListAndSize permAfterDel = deleteFromLinkedList(head,num,size) ;
+//      //  Practicum.Node<String> headAfterDel = permAfterDel.head;
 //      //  int sizeAfterDel = permAfterDel.size;
 //      //  System.out.println(sizeAfterDel);
 //     //   printLinkedList(headAfterDel);

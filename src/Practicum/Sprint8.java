@@ -1,3 +1,5 @@
+package Practicum;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -5,7 +7,7 @@ import java.util.*;
 
 public class Sprint8 {
     public static void main(String[] args) throws IOException {
-        task10();
+        task11();
     }
 
     public static void task1() throws IOException {
@@ -275,5 +277,32 @@ public class Sprint8 {
            }
        }
        System.out.println(answer);
+    }
+    public static void task11() throws IOException {
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        String string = reader.readLine();
+
+        int[] prefix = new int[string.length()];
+
+        for(int i = 1; i < string.length();i++){
+            int k = prefix[i-1];
+            while(k > 0 && string.charAt(i) != string.charAt(k)){
+                k = prefix[k-1];
+            }
+            if(string.charAt(i) == string.charAt(k)){
+                k = k+1;
+            }
+            prefix[i] = k;
+        }
+
+        int period = string.length() - prefix[string.length()-1];
+
+        if(string.length()%period == 0){
+            System.out.println(string.length()/period);
+        }
+        else {
+            System.out.println(1);
+        }
+
     }
 }

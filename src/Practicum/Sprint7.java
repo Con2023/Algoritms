@@ -1,3 +1,5 @@
+package Practicum;
+
 import java.util.*;
 
 public class Sprint7 {

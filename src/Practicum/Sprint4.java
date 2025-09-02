@@ -1,3 +1,5 @@
+package Practicum;
+
 import java.beans.Introspector;
 import java.io.BufferedReader;
 import java.io.IOException;
